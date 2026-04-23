@@ -59,7 +59,8 @@ Adafruit_MPU6050::~Adafruit_MPU6050(void) {
 /*!
  *    @brief  Sets up the hardware and initializes I2C
  *    @param alt_ID
- *            In the case of a knockoff sensor, this is the user-provided I2C device ID
+ *            In the case of a knockoff sensor, this is the user-provided I2C
+ *            device ID
  *    @param  i2c_address
  *            The I2C address to be used.
  *    @param  wire
